@@ -17,7 +17,7 @@ Resources:
   GlueServiceRole:
     Type: AWS::IAM::Role
     Properties:
-      RoleName: !Sub "${AWS::StackName}-myroleforcodepipeline"
+      RoleName: !Sub "${AWS::StackName}-myroleforGlue"
       AssumeRolePolicyDocument:
         Version: "2012-10-17"
         Statement:
